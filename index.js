@@ -23,10 +23,9 @@ function writeCards(names, eventName){
     return writtenLetters;
 };
  
-function countDown(startingNumber){
-    let userNumber = startingNumber;
-    while (0 <= startingNumber ){
-        console.log(startingNumber --);
+function countDown(number){
+    while (0 <= number ){
+        console.log(number--);
     } 
 }
 
